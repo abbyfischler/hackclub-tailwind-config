@@ -62,3 +62,6 @@
 .caption{
   @apply text-muted font-medium tracking-headline leading-caption
 }
+.alerts{
+  @apply rounded-default bg-orange text-background font-body
+}
