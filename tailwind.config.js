@@ -71,10 +71,18 @@ module.exports = {
 
       /*this is wrong how do i make it like them.hackclub.com?*/
       fontSize: {
-        sm: ["14px", "20px"],
-        base: ["16px", "24px"],
-        lg: ["20px", "28px"],
-        xl: ["24px", "32px"],
+        '0': '12px',
+      '1': '16px',
+      '2': '20px',
+      '3': '24px',
+      '4': '32px',
+      '5': '48px',
+      '6': '64px',
+      '7': '96px',
+      '8': '128px',
+      '9': '160px',
+      '10': '192px',
+ 
       },
       lineHeight: {
         limit: 0.875,

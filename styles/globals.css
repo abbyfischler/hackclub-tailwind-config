@@ -33,3 +33,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading {
+    @apply font-bold leading-heading my-0
+}
+
+.ultratitle {
+    @apply text-5 md:text-6 lg:text-7 leading-limit font-bold tracking-title
+}
+.title {
+    @apply text-4 md:text-5 lg:text-6 leading-title font-bold tracking-title
+}
+.title {
+    @apply text-2 md:text-3 mt-3 font-bold tracking-headline leading-subheading
+}
+.headline {
+    @apply heading tracking-headline leading-heading text-4 md:text-3 mb-3
+}
+.subheadline {
+    @apply heading tracking-headline text-2 md:text-0 mb-3
+}
+.eyebrow {
+    @apply text-3 md:text-4 text-muted tracking-headline font-heading uppercase mt-0 mb-2
+}
