@@ -1,18 +1,12 @@
-import '../styles/globals.css'
-import { ThemeProvider } from 'next-themes'
-
-// like this: 
-
-storageKey = 'theme';
-themes = ['light, dark'];
-
+import "../styles/globals.css";
+import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultTheme="system" enableSystem="true">
       <Component {...pageProps} />
     </ThemeProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
