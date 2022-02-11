@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "phantom-sans": "Phantom Sans, sans-serif",
+        heading:
+          '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+        body: '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+        monospace: '"SF Mono", "Roboto Mono", Menlo, Consolas, monospace',
       },
       colors: {
         red: "#ec3750",
@@ -41,12 +44,12 @@ module.exports = {
       },
       /* is it spacing or space ??  https://tailwindcss.com/docs/space*/
       spacing: {
-        "0": "0px",
-        "4": "4px",
-        "8": "8px",
-        "16": "16px",
-        "32": "32px",
-        "64": "64px",
+        0: "0px",
+        4: "4px",
+        8: "8px",
+        16: "16px",
+        32: "32px",
+        64: "64px",
       },
       /*screens instead of breakpoints: https://tailwindcss.com/docs/screens*/
       screens: {
@@ -72,6 +75,49 @@ module.exports = {
         base: ["16px", "24px"],
         lg: ["20px", "28px"],
         xl: ["24px", "32px"],
+      },
+      lineHeight: {
+        limit: 0.875,
+        title: 1,
+        heading: 1.125,
+        subheading: 1.25,
+        caption: 1.375,
+        body: 1.5,
+      },
+      fontWeight: {
+        body: 400,
+        bold: 700,
+        heading: 700,
+      },
+      letterSpacing: {
+        title: "-0.009em",
+        headline: "0.009em",
+      },
+      sizes: {
+        widePlus: 2048,
+        wide: 1536,
+        layoutPlus: 1200,
+        layout: 1024,
+        copyUltra: 980,
+        copyPlus: 768,
+        copy: 680,
+        narrowPlus: 600,
+        narrow: 512,
+      },
+      borderRadius: {
+        small: 4,
+        default: 8,
+        extra: 12,
+        ultra: 16,
+        circle: 99999,
+      },
+      dropShadow: {
+        text: "0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.125)",
+        small:
+          "0 1px 2px rgba(0, 0, 0, 0.0625), 0 2px 4px rgba(0, 0, 0, 0.0625)",
+        card: "0 4px 8px rgba(0, 0, 0, 0.125)",
+        elevated:
+          "0 1px 2px rgba(0, 0, 0, 0.0625), 0 8px 12px rgba(0, 0, 0, 0.125)",
       },
     },
   },
