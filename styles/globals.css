@@ -56,3 +56,6 @@
 .eyebrow {
     @apply text-3 md:text-4 text-muted tracking-headline font-heading uppercase mt-0 mb-2
 }
+.lead{
+    @apply text-2 text-3 
+}
