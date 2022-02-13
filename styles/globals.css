@@ -65,3 +65,6 @@
 .alerts.primary{
   @apply rounded-default bg-orange text-background font-body
 }
+.badges.pill{
+  @apply rounded-circle w-3 h-1 
+}
