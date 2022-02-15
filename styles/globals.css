@@ -68,3 +68,6 @@
 .badges.pill{
   @apply rounded-circle w-3 h-1 
 }
+.badges.outline{
+  @apply bg-transparent 
+}
