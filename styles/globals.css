@@ -69,5 +69,5 @@
   @apply rounded-circle w-3 h-1 
 }
 .badges.outline{
-  @apply bg-transparent font-body border-transparent border
+  @apply bg-transparent font-body border border-inherit
 }
