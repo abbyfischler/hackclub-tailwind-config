@@ -71,3 +71,6 @@
 .badges.outline{
   @apply bg-transparent font-body border border-inherit
 }
+.buttons.primary{
+@apply cursor-pointer font-bold
+}
