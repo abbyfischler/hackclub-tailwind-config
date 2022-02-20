@@ -72,5 +72,5 @@
   @apply bg-transparent font-body border border-inherit
 }
 .buttons.primary{
-@apply cursor-pointer font-bold
+@apply cursor-pointer font-bold border-rounded inline-flex items-center justify-center
 }
